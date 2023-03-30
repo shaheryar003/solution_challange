@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:solution_challange/Screens/dangerPage.dart';
 import 'package:solution_challange/Screens/home.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -15,7 +16,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     _timer = Timer(const Duration(seconds: 2), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => homeScreen()));
+          context, MaterialPageRoute(builder: (context) => DangerPage()));
     });
     // TODO: implement initState
     super.initState();
