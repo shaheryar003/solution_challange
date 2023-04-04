@@ -74,7 +74,7 @@ class _homeScreenState extends State<homeScreen> {
                         // ignore: prefer_const_constructors
                         child: Center(
                           child: Text(
-                            "HELLO G HELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO G",
+                            "Floods in Pakistan have left thousands hungry. According to UNICEF, more than 1.5 million people have been affected by the floods and are in dire need of assistance. Join us in providing food supplies to those in need.",
                             style: TextStyle(
                                 fontFamily: "BebasNeue",
                                 color: Colors.white,
@@ -105,7 +105,7 @@ class _homeScreenState extends State<homeScreen> {
                         // ignore: prefer_const_constructors
                         child: Center(
                           child: Text(
-                            "HELLO G HELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO GHELLO G",
+                            "Floods in Pakistan have left thousands hungry. According to UNICEF, more than 1.5 million people have been affected by the floods and are in dire need of assistance. Join us in providing food supplies to those in need.",
                             style: TextStyle(
                                 fontFamily: "BebasNeue",
                                 color: Colors.white,

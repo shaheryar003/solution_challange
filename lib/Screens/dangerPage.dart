@@ -74,7 +74,7 @@ class DangerPage extends StatelessWidget {
                               fontWeight: FontWeight.w700),
                         ),
                         const Text(
-                          "Lorem Ipsum kadshjkhjdahajshjashdjshajsahdjakhsajhdajkhsdjsadhdsjhsadkj",
+                          "Many homes, buildings, and infrastructure have been severely damaged or destroyed, leaving thousands of people homeless and in dire need of assistance.",
                           style: TextStyle(
                             fontSize: 12,
                           ),
@@ -147,7 +147,7 @@ class DangerPage extends StatelessWidget {
                         height: 170.h,
                         child: const SingleChildScrollView(
                           child: Text(
-                              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+                              "According to the National Disaster Management Authority, the earthquake has claimed the lives of over 500 people and injured more than 20,000. The situation is critical, and immediate humanitarian aid is required to help those affected."),
                         ),
                       ),
                     )

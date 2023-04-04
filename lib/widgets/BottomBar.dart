@@ -4,6 +4,7 @@ import 'package:hexcolor/hexcolor.dart';
 import 'package:solution_challange/Screens/NGO.dart';
 import 'package:solution_challange/Screens/dangerPage.dart';
 import 'package:solution_challange/Screens/home.dart';
+import 'package:solution_challange/Screens/profile.dart';
 import 'package:solution_challange/widgets/colors.dart';
 
 // ignore: must_be_immutable
@@ -94,11 +95,16 @@ class NavigatorBarAD extends StatelessWidget {
                   color: HexColor("#FFFFFF"),
                   child: InkWell(
                       splashColor: fontColor,
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => ProfilePage()));
+                      },
                       child: Center(
                         child: FaIcon(
                           FontAwesomeIcons.circleUser,
-                          color: page == 'NGOs' ? Colors.black : Colors.grey,
+                          color: page == 'Profile' ? Colors.black : Colors.grey,
                         ),
                       )),
                 ),
