@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:solution_challange/Screens/DOnateScreen.dart';
+import 'package:solution_challange/Screens/donateFirst.dart';
 import 'package:solution_challange/widgets/BottomBar.dart';
 import 'package:solution_challange/widgets/colors.dart';
 
@@ -92,7 +93,7 @@ class NGOPages extends StatelessWidget {
                     child: Padding(
                       padding: EdgeInsets.only(left: 30.0, top: 20),
                       child: Text(
-                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+                          "Every contribution counts! Join us in supporting those affected by the floods and other disasters in Pakistan. Your donation can make a difference and provide critical aid to those who need it the most."),
                     ),
                   ),
                 ),
@@ -101,7 +102,7 @@ class NGOPages extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => DonateScreen()));
+                            builder: (context) => DonateFirstPage()));
                   },
                   child: Container(
                     height: 143.h,

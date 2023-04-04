@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:solution_challange/Screens/auth/Login.dart';
 
 import '../widgets/BottomBar.dart';
 import '../widgets/SettingCard.dart';
@@ -55,7 +56,11 @@ class ProfilePage extends StatelessWidget {
             SettingCard(icon: FontAwesomeIcons.userLock, text: "Privacy"),
             SettingCard(
                 icon: FontAwesomeIcons.clipboardQuestion, text: "Help Centre"),
-            SettingCard(icon: FontAwesomeIcons.signOut, text: "Sign Out"),
+            InkWell(
+                onTap: (){
+                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>LoginPage()));
+                },
+                child: SettingCard(icon: FontAwesomeIcons.signOut, text: "Sign Out")),
           ]),
         ),
       ),

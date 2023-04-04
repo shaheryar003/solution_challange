@@ -73,17 +73,24 @@ class DangerPage extends StatelessWidget {
                               fontSize: 45,
                               fontWeight: FontWeight.w700),
                         ),
-                        const Text(
-                          "Many homes, buildings, and infrastructure have been severely damaged or destroyed, leaving thousands of people homeless and in dire need of assistance.",
-                          style: TextStyle(
-                            fontSize: 12,
-                          ),
-                        )
+                         SizedBox(
+                           width: 145.w,
+                           height: 180.h,
+                           child: const SingleChildScrollView(
+                             child:  Text(
+                              "Many homes, buildings, and infrastructure have been severely damaged or destroyed, leaving thousands of people homeless and in dire need of assistance.",
+                              style: TextStyle(
+                                fontSize: 12,
+                              ),
+                            ),
+                           ),
+                         )
                       ],
                     ),
                   ),
                   Image.asset("assets/images/danger2.png")
                 ]),
+                SizedBox(height: 37.h),
                 Text(
                   "WOUND VICTIMS",
                   style: TextStyle(
