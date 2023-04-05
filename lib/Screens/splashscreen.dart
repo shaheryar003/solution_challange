@@ -1,7 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:solution_challange/Screens/dangerPage.dart';
 import 'package:solution_challange/Screens/home.dart';
+
+import 'auth/signUp.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -15,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     _timer = Timer(const Duration(seconds: 2), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => homeScreen()));
+          context, MaterialPageRoute(builder: (context) => SignUpPage()));
     });
     // TODO: implement initState
     super.initState();
