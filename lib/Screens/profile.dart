@@ -42,7 +42,7 @@ class ProfilePage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 22.h),
-            const Text("Shaiq Paracha",
+            const Text("Shaheryar Ashfaq",
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600)),
             SizedBox(height: 22.h),
             const Padding(
@@ -57,10 +57,12 @@ class ProfilePage extends StatelessWidget {
             SettingCard(
                 icon: FontAwesomeIcons.clipboardQuestion, text: "Help Centre"),
             InkWell(
-                onTap: (){
-                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>LoginPage()));
+                onTap: () {
+                  Navigator.pushReplacement(context,
+                      MaterialPageRoute(builder: (context) => LoginPage()));
                 },
-                child: SettingCard(icon: FontAwesomeIcons.signOut, text: "Sign Out")),
+                child: SettingCard(
+                    icon: FontAwesomeIcons.signOut, text: "Sign Out")),
           ]),
         ),
       ),
